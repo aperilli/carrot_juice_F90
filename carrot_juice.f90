@@ -15,4 +15,5 @@ PROGRAM carrot_juice
   call press(carrots, 1000, 3.145, juice)
 
   print*, juice, " carrot juices successfully created"
+  print*,'ale'
 END PROGRAM !carrot_juice
