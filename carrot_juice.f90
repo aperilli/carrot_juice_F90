@@ -12,8 +12,8 @@ PROGRAM carrot_juice
   call plant(field, 1000, 1)
   call grow(field, 1000, 3)
   call harvest(field, carrots, 1000)
-  call press (carrots, 1000, 3.14, juice)
+  call press(carrots, 1000, 3.14, juice)
 
   print*, juice, " carrot juices successfully created"
-  print*, "pluto,pippo"
+  print*, "pluto, paperino"
 END PROGRAM !carrot_juice
