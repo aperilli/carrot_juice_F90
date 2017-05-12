@@ -6,4 +6,4 @@ cd $dir
 cd pressing
 gfortran -c pressing.f90
 cd $dir
-gfortran -Igrowing -Ipressing growing/growing.o pressing/pressing.o carrot_juice.f90
+gfortran -I growing -Ipressing growing/growing.o pressing/pressing.o carrot_juice.f90
